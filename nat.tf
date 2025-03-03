@@ -1,5 +1,5 @@
 resource "aws_eip" "nat" {
-  vpc = true
+  #vpc = true
 }
 
 resource "aws_nat_gateway" "example" {
